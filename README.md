@@ -19,6 +19,8 @@ internal/catalog/ Tile-data loading and validation exercise
 internal/game/    Movement, placement rules, and turn exercises
 internal/analysis/ Algorithm experiments
 data/             Human-readable tile catalog (currently empty)
+data/tile-images/ Reference photos named piece 0, piece 1, etc.
+scripts/          Local utilities, including photo renaming
 docs/             Development progression
 web/              Future frontend
 ```
@@ -51,3 +53,5 @@ Add meaningful tests alongside each implemented behavior.
 
 See [the progression guide](docs/progression.md) for the milestones and
 [the catalog notes](data/README.md) for the photo-transcription convention.
+
+To name your tile photos, see [the image-folder instructions](data/tile-images/README.md).
